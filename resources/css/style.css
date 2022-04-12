@@ -1,5 +1,5 @@
 @import url(normalize.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
 
 /* -------------------- VARIABLES */
@@ -8,7 +8,7 @@
 /* -------------------- GLOBAL DEFAULTS */
 
 body{
-    background-color: white;
+    background-color: rgb(247, 211, 173);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,13 +27,39 @@ img {
 }
 
 /* -------------------- HEADER */
+header {
+
+    font-size: 50px; 
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Grape Nuts', cursive;
+    background-color: white;
+     
+
+    }
+
+    
+
+
+
+@media screen and (min-width: 800px) {
+
+    header {
+        font-size: 80px;
+    
+    
+    }
+}
 
 /* -------------------- NAVIGATION */
 
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
-
+	
+    
+  
+  
 .image-text {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -44,4 +70,8 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+}
+
+.white-bg {
+    background-color: white;
 }

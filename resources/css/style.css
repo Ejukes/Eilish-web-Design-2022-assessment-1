@@ -12,6 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 img {
     max-width: 100%;
 }
@@ -52,6 +53,48 @@ header {
 }
 
 /* -------------------- NAVIGATION */
+
+.nav-prompt
+
+{
+    display: none;
+}
+
+.main-nav.ouen{
+    
+}
+
+
+
+.main-nav{
+    list-style: none;
+    padding-left: 0;
+
+    display: none;
+}
+
+.main-nav a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px sclid rgb(232, 170, 224);
+    text-align: center;
+    text-transform: uppercase;
+    color:lavenderblush
+}
+
+.main-nav a:hover{
+    background-color: transparent;
+    color: rgb(191, 244, 244);
+}
+
+@media screen and (min-width: 800px) {
+    .main-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 
 /* -------------------- FOOTER */
 
